@@ -80,7 +80,7 @@ class App extends Component {
       <div className="App">
         <h1>Your Image!</h1>
         <p>The image is stored in IPFS & The Ethereum Blockchain!</p>
-        <img src={`https://gateway.pinata.cloud/ipfs/${this.state.ipfsHash}`} alt="" />
+        <img src={`https://ipfs.io/ipfs/${this.state.ipfsHash}`} alt="" />
         <h2>Upload Image</h2>
         <form onSubmit={this.onSubmit}>
           <input type='file' onChange={this.captureFile} />
